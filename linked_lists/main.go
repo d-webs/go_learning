@@ -29,14 +29,6 @@ func main() {
   fmt.Printf("The head node has a value %v\n", firstList.head.data)
   fmt.Printf("Right now our list has a length of %v\n", firstList.length)
   fmt.Printf("When I pop the list, the value we get is %v\n", firstList.pop())
-
-  myFirstQueue := queue{}
-  myFirstQueue.push(5)
-  myFirstQueue.push(6)
-  
-  newList := linkedList{}
-
-  newList.insert(5)
   
   myQueue := newQueue()
   myQueue.push(1)

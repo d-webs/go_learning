@@ -5,8 +5,6 @@ type queue struct {
   outStack *linkedList
 }
 
-// QUEUE METHODS /////
-
 func (q *queue) push(val int) {
   q.inStack.insert(val)
 }
